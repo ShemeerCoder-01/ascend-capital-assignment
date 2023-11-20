@@ -1,0 +1,106 @@
+.popup-container{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.content-wrapper{
+    background-color: #C3C3C3;
+    width: 700px;
+    height: 400px;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-width: 400px;  
+}
+
+.list-items{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+}
+.list-items .item{
+    margin: 5px;
+}
+
+.popUp-buttons{
+    display: flex;
+    gap: 0.5rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.popUp-buttons button{
+    width: 100px;
+    height:40px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 1px solid gray;
+}
+
+.label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.input-field{
+    width: 200px;
+    height: 25px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.item-add-icon{
+    font-size: 2.25rem !important;
+    font-weight: 300;
+}
+
+.task-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.task-buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.task-buttons .btn{
+    width: 60px;
+    height:30px;
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 1.01rem;
+    font-weight: 500;
+    border: 1px solid gray;
+}

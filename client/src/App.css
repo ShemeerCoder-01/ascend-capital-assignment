@@ -1,0 +1,54 @@
+
+.main-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 100vh;
+}
+
+.homepage-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.homepage-wrapper{
+    width: 300px;
+    height: max-content;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.added-lists{
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-title{
+    background-color: rgb(188,188,188);
+    padding: 0.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.add-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(212, 212, 212);
+}
+
+.add-icon{
+    font-size: 3rem !important;
+    font-weight: 300;
+}
+
